@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646333478749' stop='1646333493542'>
+    <name>BILLING ADDRESS</name>
+    <title>BILLING ADDRESS</title>
+    <test-cases>
+        <test-case start='1646333478750' status='broken' stop='1646333493540'>
+            <name>FILL OUT BILLING ADDRESS</name>
+            <title>FILL OUT BILLING ADDRESS</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='98.0.4758.109'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='WINDOWS 10'/>
+            </parameters>
+            <steps>
+                <step start='1646333478752' status='passed' stop='1646333478753'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646333478758' status='passed' stop='1646333489506'>
+                    <name>Login Procedure</name>
+                    <title>Login Procedure</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646333484865' status='passed' stop='1646333484865'>
+                            <name>Open Login Page</name>
+                            <title>Open Login Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646333484967' status='passed' stop='1646333484967'>
+                            <name>Set email to rtester@hotmail.com</name>
+                            <title>Set email to rtester@hotmail.com</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646333485056' status='passed' stop='1646333485056'>
+                            <name>Enter the password</name>
+                            <title>Enter the password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646333486337' status='passed' stop='1646333486337'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646333486374' status='passed' stop='1646333486374'>
+                            <name>Click Login in Button</name>
+                            <title>Click Login in Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646333486374' status='passed' stop='1646333486374'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646333487567' status='passed' stop='1646333487567'>
+                            <name>Open Shopping Cart</name>
+                            <title>Open Shopping Cart</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646333487611' status='passed' stop='1646333487611'>
+                            <name>I agree with the terms of service</name>
+                            <title>I agree with the terms of service</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646333489506' status='passed' stop='1646333489506'>
+                            <name>Click Checkout</name>
+                            <title>Click Checkout</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1646333493514' status='broken' stop='1646333493540'>
+                    <name>Fill out Billing form</name>
+                    <title>Fill out Billing form</title>
+                    <attachments>
+                        <attachment title='FILL_OUT_BILLING_ADDRESS_fail.png' source='b5ce0416-d120-4650-853a-b0df788598d0-attachment.png' type='image/png' size='56044'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>elem[prop] is not a function</message>
+                <stack-trace>TypeError: elem[prop] is not a function
+                    at C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:253:38
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async BillingAddress.setCountry (C:\NATC-Automation\Project\wdio\NATC-Automation\test\pages\billing-address.js:23:5)
+                    at async Context.&lt;anonymous> (C:\NATC-Automation\Project\wdio\NATC-Automation\test\specs\billing-address.spec.js:31:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

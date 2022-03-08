@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646200362339' stop='1646200362392'>
+    <name>Checkout Process</name>
+    <title>Checkout Process</title>
+    <test-cases>
+        <test-case start='1646200362339' status='passed' stop='1646200362349'>
+            <name>Billing Address Continue</name>
+            <title>Billing Address Continue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='undefined'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='undefined'/>
+            </parameters>
+            <steps>
+                <step start='1646200362341' status='passed' stop='1646200362342'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646200362350' status='passed' stop='1646200362360'>
+            <name>Shipping Address Continue</name>
+            <title>Shipping Address Continue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='undefined'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='undefined'/>
+            </parameters>
+            <steps>
+                <step start='1646200362352' status='passed' stop='1646200362352'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646200362362' status='passed' stop='1646200362373'>
+            <name>Shipping Method Ground</name>
+            <title>Shipping Method Ground</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='undefined'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='undefined'/>
+            </parameters>
+            <steps>
+                <step start='1646200362367' status='passed' stop='1646200362367'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646200362374' status='passed' stop='1646200362378'>
+            <name>Payment Method Credit Card</name>
+            <title>Payment Method Credit Card</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='undefined'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='undefined'/>
+            </parameters>
+            <steps>
+                <step start='1646200362375' status='passed' stop='1646200362375'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646200362380' status='passed' stop='1646200362389'>
+            <name>Payment Information Credit Card</name>
+            <title>Payment Information Credit Card</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='undefined'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='undefined'/>
+            </parameters>
+            <steps>
+                <step start='1646200362381' status='passed' stop='1646200362381'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

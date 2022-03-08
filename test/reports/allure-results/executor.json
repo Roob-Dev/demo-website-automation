@@ -1,0 +1,8 @@
+{
+    "name": "Webdriver IO",
+    "type": "Node.js",
+    "url": "http://example.org",
+    "buildOrder": 1,
+    "buildName": "Allure-Report-Deploy #01",
+    "reportName": "Allure Report"
+  }

@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646683852118' stop='1646683856130'>
+    <name>SHIPPING ADDRESS</name>
+    <title>SHIPPING ADDRESS</title>
+    <test-cases>
+        <test-case start='1646683852119' status='passed' stop='1646683856130'>
+            <name>CLICK CONTINUE IN SHIPPING ADDRESS</name>
+            <title>CLICK CONTINUE IN SHIPPING ADDRESS</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='98.0.4758.109'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='WINDOWS 10'/>
+            </parameters>
+            <steps>
+                <step start='1646683852119' status='passed' stop='1646683852119'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646683856128' status='passed' stop='1646683856128'>
+                    <name>proceed in shopping address</name>
+                    <title>proceed in shopping address</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646683856128' status='passed' stop='1646683856128'>
+                            <name>Click continue button</name>
+                            <title>Click continue button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='94434f7d-4a1a-450f-9701-29df624d97ed-attachment.png' type='image/png' size='36644'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

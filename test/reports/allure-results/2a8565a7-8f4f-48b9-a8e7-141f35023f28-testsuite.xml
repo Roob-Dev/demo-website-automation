@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646686639538' stop='1646686653601'>
+    <name>SHIPPING METHOD</name>
+    <title>SHIPPING METHOD</title>
+    <test-cases>
+        <test-case start='1646686639538' status='broken' stop='1646686653599'>
+            <name>CLICK CONTINUE IN SHIPPING METHOD</name>
+            <title>CLICK CONTINUE IN SHIPPING METHOD</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='98.0.4758.109'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='WINDOWS 10'/>
+            </parameters>
+            <steps>
+                <step start='1646686639539' status='passed' stop='1646686639539'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646686643542' status='broken' stop='1646686653599'>
+                    <name>proceed to select shipping method</name>
+                    <title>proceed to select shipping method</title>
+                    <attachments>
+                        <attachment title='CLICK_CONTINUE_IN_SHIPPING_METHOD_fail.png' source='b41719c6-6398-494c-95c0-0bed7c8fda30-attachment.png' type='image/png' size='133923'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "#shippingoption_2" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#shippingoption_2" because element wasn't found
+                    at implicitWait (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async ShippingMethod.twoDayShipping (C:\NATC-Automation\Project\wdio\NATC-Automation\test\pages\shipping-method.js:32:5)
+                    at async Context.&lt;anonymous> (C:\NATC-Automation\Project\wdio\NATC-Automation\test\specs\billing-address.spec.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

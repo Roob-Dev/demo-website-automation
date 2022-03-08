@@ -1,0 +1,125 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646692575463' stop='1646692586584'>
+    <name>BILLING ADDRESS</name>
+    <title>BILLING ADDRESS</title>
+    <test-cases>
+        <test-case start='1646692575464' status='broken' stop='1646692586583'>
+            <name>FILL OUT BILLING ADDRESS</name>
+            <title>FILL OUT BILLING ADDRESS</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='98.0.4758.109'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='WINDOWS 10'/>
+            </parameters>
+            <steps>
+                <step start='1646692575467' status='passed' stop='1646692575467'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646692575471' status='broken' stop='1646692586582'>
+                    <name>Login Procedure</name>
+                    <title>Login Procedure</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646692578204' status='passed' stop='1646692578204'>
+                            <name>Open Login Page</name>
+                            <title>Open Login Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646692578288' status='passed' stop='1646692578288'>
+                            <name>Set email to rtester@hotmail.com</name>
+                            <title>Set email to rtester@hotmail.com</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646692578365' status='passed' stop='1646692578365'>
+                            <name>Enter the password</name>
+                            <title>Enter the password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646692579979' status='passed' stop='1646692579979'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646692580015' status='passed' stop='1646692580015'>
+                            <name>Click Login in Button</name>
+                            <title>Click Login in Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646692580015' status='passed' stop='1646692580015'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646692580041' status='broken' stop='1646692586582'>
+                            <name>Fill out Billing form</name>
+                            <title>Fill out Billing form</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1646692580598' status='passed' stop='1646692580598'>
+                                    <name>Open Shopping Cart</name>
+                                    <title>Open Shopping Cart</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646692580661' status='passed' stop='1646692580661'>
+                                    <name>I agree with the terms of service</name>
+                                    <title>I agree with the terms of service</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646692582564' status='passed' stop='1646692582564'>
+                                    <name>Click Checkout</name>
+                                    <title>Click Checkout</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646692586573' status='passed' stop='1646692586573'>
+                                    <name>proceed in shopping address</name>
+                                    <title>proceed in shopping address</title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1646692586573' status='passed' stop='1646692586573'>
+                                            <name>Click continue button</name>
+                                            <title>Click continue button</title>
+                                            <attachments/>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                                <step start='1646692586573' status='broken' stop='1646692586582'>
+                                    <name>proceed in shopping address</name>
+                                    <title>proceed in shopping address</title>
+                                    <attachments>
+                                        <attachment title='FILL_OUT_BILLING_ADDRESS_fail.png' source='e1616842-8b09-41c4-9abb-0195aa0a1351-attachment.png' type='image/png' size='60796'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>shippingMethod is not defined</message>
+                <stack-trace>ReferenceError: shippingMethod is not defined
+                    at Context.&lt;anonymous> (C:\NATC-Automation\Project\wdio\NATC-Automation\test\specs\billing-address.spec.js:87:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

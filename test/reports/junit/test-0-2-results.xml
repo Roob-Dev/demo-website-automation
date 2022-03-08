@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="PRECONDITION" timestamp="2022-03-04T10:09:48" time="5.662" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="PRECONDITION"/>
+      <property name="capabilities" value="chrome.99_0_4844_51.windows"/>
+      <property name="file" value=".\test\specs\login.spec.js"/>
+    </properties>
+    <testcase classname="chrome.99_0_4844_51.windows.PRECONDITION" name="TEST LOGIN" time="5.644">
+      <system-out><![CDATA[
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/url - {"url":"http://demowebshop.tricentis.com/"}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element - {"using":"xpath","value":"//a[contains(@href, \"login\")]"}
+RESULT: {"url":"http://demowebshop.tricentis.com/"}
+RESULT: {"using":"xpath","value":"//a[contains(@href, \"login\")]"}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element/107197fb-690d-4a03-a642-c6a1e070345f/click - {}
+RESULT: {}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element - {"using":"css selector","value":"#Email"}
+RESULT: {"using":"css selector","value":"#Email"}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element/7271bb5a-fb81-45bd-ad78-38dbbd847dca/clear - {}
+RESULT: {}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element/7271bb5a-fb81-45bd-ad78-38dbbd847dca/value - {"text":"rtester@hotmail.com"}
+RESULT: {"text":"rtester@hotmail.com"}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element - {"using":"css selector","value":"#Password"}
+RESULT: {"using":"css selector","value":"#Password"}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element/651bb2ba-b603-4e03-b866-609e90a600dc/clear - {}
+RESULT: {}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element/651bb2ba-b603-4e03-b866-609e90a600dc/value - {"text":"123456"}
+RESULT: {"text":"123456"}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element - {"using":"css selector","value":".login-button"}
+RESULT: {"using":"css selector","value":".login-button"}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element/52f9956f-027a-451c-9125-845ac4951bbb/click - {}
+RESULT: {}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element - {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+RESULT: {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/elements - {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+RESULT: {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element - {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+RESULT: {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+COMMAND: GET /session/1dc63101ba1e34fe1b793074e8e8c358/element/1947e422-8280-4257-ad73-3bf08f63e45f/text - {}
+RESULT: {}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element - {"using":"xpath","value":"//a[contains(@href, \"logout\")]"}
+RESULT: {"using":"xpath","value":"//a[contains(@href, \"logout\")]"}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/element/5adea7d1-2416-4348-8940-bb59dbc03a1d/click - {}
+RESULT: {}
+COMMAND: GET /session/1dc63101ba1e34fe1b793074e8e8c358/se/log/types - {}
+RESULT: {}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/se/log - {"type":"driver"}
+COMMAND: POST /session/1dc63101ba1e34fe1b793074e8e8c358/se/log - {"type":"browser"}
+RESULT: {"type":"driver"}
+RESULT: {"type":"browser"}
+COMMAND: DELETE /session/1dc63101ba1e34fe1b793074e8e8c358 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

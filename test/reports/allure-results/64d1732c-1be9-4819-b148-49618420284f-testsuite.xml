@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646248732758' stop='1646248746046'>
+    <name> ORDER PRODUCT</name>
+    <title> ORDER PRODUCT</title>
+    <test-cases>
+        <test-case start='1646248732759' status='broken' stop='1646248746043'>
+            <name>ORDER BLUE JEANS</name>
+            <title>ORDER BLUE JEANS</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='undefined'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='undefined'/>
+            </parameters>
+            <steps>
+                <step start='1646248732761' status='passed' stop='1646248732762'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646248732767' status='passed' stop='1646248742747'>
+                    <name>Login Procedure</name>
+                    <title>Login Procedure</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646248739625' status='passed' stop='1646248739625'>
+                            <name>Open Login Page</name>
+                            <title>Open Login Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646248739951' status='passed' stop='1646248739951'>
+                            <name>Set email to rtester@hotmail.com</name>
+                            <title>Set email to rtester@hotmail.com</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646248740245' status='passed' stop='1646248740245'>
+                            <name>Enter the password</name>
+                            <title>Enter the password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646248742593' status='passed' stop='1646248742593'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646248742699' status='passed' stop='1646248742699'>
+                            <name>Click Login in Button</name>
+                            <title>Click Login in Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646248742699' status='passed' stop='1646248742699'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1646248742747' status='passed' stop='1646248743582'>
+                    <name>Navigate to Apparel and Shoes</name>
+                    <title>Navigate to Apparel and Shoes</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646248743582' status='passed' stop='1646248743582'>
+                            <name>Open Apparel &amp; Shoes Page</name>
+                            <title>Open Apparel &amp; Shoes Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1646248743582' status='passed' stop='1646248745879'>
+                    <name>Navigate to Blue Jeans</name>
+                    <title>Navigate to Blue Jeans</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646248745879' status='passed' stop='1646248745879'>
+                            <name>Open Blue Jeans Page</name>
+                            <title>Open Blue Jeans Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1646248745879' status='broken' stop='1646248746043'>
+                    <name>Order Blue Jeans</name>
+                    <title>Order Blue Jeans</title>
+                    <attachments>
+                        <attachment title='ORDER_BLUE_JEANS_fail.png' source='7517b781-44d7-4466-ac72-21cf51bc107e-attachment.png' type='image/png' size='163867'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=98.0.4758.102)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=98.0.4758.102)
+                    at getErrorFromResponseBody (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646345498576' stop='1646345511902'>
+    <name>BILLING ADDRESS</name>
+    <title>BILLING ADDRESS</title>
+    <test-cases>
+        <test-case start='1646345498577' status='broken' stop='1646345511900'>
+            <name>FILL OUT BILLING ADDRESS</name>
+            <title>FILL OUT BILLING ADDRESS</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='98.0.4758.109'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='WINDOWS 10'/>
+            </parameters>
+            <steps>
+                <step start='1646345498579' status='passed' stop='1646345498580'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646345498585' status='passed' stop='1646345507788'>
+                    <name>Login Procedure</name>
+                    <title>Login Procedure</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646345501510' status='passed' stop='1646345501510'>
+                            <name>Open Login Page</name>
+                            <title>Open Login Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646345501653' status='passed' stop='1646345501653'>
+                            <name>Set email to rtester@hotmail.com</name>
+                            <title>Set email to rtester@hotmail.com</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646345501775' status='passed' stop='1646345501775'>
+                            <name>Enter the password</name>
+                            <title>Enter the password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646345503351' status='passed' stop='1646345503351'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646345503394' status='passed' stop='1646345503394'>
+                            <name>Click Login in Button</name>
+                            <title>Click Login in Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646345503394' status='passed' stop='1646345503394'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646345504585' status='passed' stop='1646345504585'>
+                            <name>Click on Customer Addresses</name>
+                            <title>Click on Customer Addresses</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646345505340' status='passed' stop='1646345505340'>
+                            <name>Open Shopping Cart</name>
+                            <title>Open Shopping Cart</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646345505437' status='passed' stop='1646345505437'>
+                            <name>I agree with the terms of service</name>
+                            <title>I agree with the terms of service</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646345507788' status='passed' stop='1646345507788'>
+                            <name>Click Checkout</name>
+                            <title>Click Checkout</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1646345511798' status='broken' stop='1646345511900'>
+                    <name>Fill out Billing form</name>
+                    <title>Fill out Billing form</title>
+                    <attachments>
+                        <attachment title='FILL_OUT_BILLING_ADDRESS_fail.png' source='8eb475a6-0a4c-45d4-9df8-f4c879c01646-attachment.png' type='image/png' size='68079'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable: Element is not currently visible and may not be manipulated
+                  (Session info: chrome=98.0.4758.102)</message>
+                <stack-trace>element not interactable: element not interactable: Element is not currently visible and may not be manipulated
+                  (Session info: chrome=98.0.4758.102)
+                    at getErrorFromResponseBody (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

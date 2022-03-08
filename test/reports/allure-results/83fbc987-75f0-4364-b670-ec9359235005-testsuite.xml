@@ -1,0 +1,159 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646367829437' stop='1646367850800'>
+    <name>BILLING ADDRESS</name>
+    <title>BILLING ADDRESS</title>
+    <test-cases>
+        <test-case start='1646367829438' status='passed' stop='1646367850799'>
+            <name>FILL OUT BILLING ADDRESS</name>
+            <title>FILL OUT BILLING ADDRESS</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='98.0.4758.109'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='WINDOWS 10'/>
+            </parameters>
+            <steps>
+                <step start='1646367829440' status='passed' stop='1646367829441'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646367829447' status='undefined'>
+                    <name>Login Procedure</name>
+                    <title>Login Procedure</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646367833733' status='passed' stop='1646367833733'>
+                            <name>Open Login Page</name>
+                            <title>Open Login Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646367833834' status='passed' stop='1646367833834'>
+                            <name>Set email to rtester@hotmail.com</name>
+                            <title>Set email to rtester@hotmail.com</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646367833940' status='passed' stop='1646367833940'>
+                            <name>Enter the password</name>
+                            <title>Enter the password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646367835534' status='passed' stop='1646367835534'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646367835572' status='passed' stop='1646367835572'>
+                            <name>Click Login in Button</name>
+                            <title>Click Login in Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646367835572' status='passed' stop='1646367835572'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646367835593' status='passed' stop='1646367840092'>
+                            <name>Add new address in Customer Info</name>
+                            <title>Add new address in Customer Info</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1646367836361' status='passed' stop='1646367836361'>
+                                    <name>Click on Customer Addresses</name>
+                                    <title>Click on Customer Addresses</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646367837082' status='passed' stop='1646367837082'>
+                                    <name>Set First Name to Harry</name>
+                                    <title>Set First Name to Harry</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646367837174' status='passed' stop='1646367837174'>
+                                    <name>Set Last Name to Potter</name>
+                                    <title>Set Last Name to Potter</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646367837275' status='passed' stop='1646367837275'>
+                                    <name>Set Address to harrypotter@hogwarts.com</name>
+                                    <title>Set Address to harrypotter@hogwarts.com</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646367837330' status='passed' stop='1646367837330'>
+                                    <name>Set Country name to United States</name>
+                                    <title>Set Country name to United States</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646367837420' status='passed' stop='1646367837420'>
+                                    <name>Set City name to Austin</name>
+                                    <title>Set City name to Austin</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646367837537' status='passed' stop='1646367837537'>
+                                    <name>Set Address to 1111 Lucky Ln</name>
+                                    <title>Set Address to 1111 Lucky Ln</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646367837635' status='passed' stop='1646367837635'>
+                                    <name>Set Postal Code to 90210</name>
+                                    <title>Set Postal Code to 90210</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646367837731' status='passed' stop='1646367837731'>
+                                    <name>Set Phone Number to 5124592222</name>
+                                    <title>Set Phone Number to 5124592222</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646367838319' status='passed' stop='1646367838319'>
+                                    <name>Open Shopping Cart</name>
+                                    <title>Open Shopping Cart</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646367838369' status='passed' stop='1646367838369'>
+                                    <name>I agree with the terms of service</name>
+                                    <title>I agree with the terms of service</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646367840091' status='passed' stop='1646367840091'>
+                                    <name>Click Checkout</name>
+                                    <title>Click Checkout</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1646367850798' status='passed' stop='1646367850798'>
+                            <name>Log Out</name>
+                            <title>Log Out</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

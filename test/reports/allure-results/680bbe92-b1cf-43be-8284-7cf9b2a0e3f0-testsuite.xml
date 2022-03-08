@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646686343874' stop='1646686357956'>
+    <name>SHIPPING METHOD</name>
+    <title>SHIPPING METHOD</title>
+    <test-cases>
+        <test-case start='1646686343875' status='broken' stop='1646686357953'>
+            <name>CLICK CONTINUE IN SHIPPING METHOD</name>
+            <title>CLICK CONTINUE IN SHIPPING METHOD</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='98.0.4758.109'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='WINDOWS 10'/>
+            </parameters>
+            <steps>
+                <step start='1646686343876' status='passed' stop='1646686343876'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646686347880' status='broken' stop='1646686357951'>
+                    <name>proceed to select shipping methoid</name>
+                    <title>proceed to select shipping methoid</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "#shippingoption_2" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#shippingoption_2" because element wasn't found
+                    at implicitWait (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async ShippingMethod.twoDayShipping (C:\NATC-Automation\Project\wdio\NATC-Automation\test\pages\shipping-method.js:32:5)
+                    at async Context.&lt;anonymous> (C:\NATC-Automation\Project\wdio\NATC-Automation\test\specs\billing-address.spec.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

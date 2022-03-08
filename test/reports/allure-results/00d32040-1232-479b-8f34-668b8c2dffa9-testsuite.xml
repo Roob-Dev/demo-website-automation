@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646200022063' stop='1646200034522'>
+    <name>PRECONDITION</name>
+    <title>PRECONDITION</title>
+    <test-cases>
+        <test-case start='1646200022064' status='passed' stop='1646200034520'>
+            <name>TEST LOGIN</name>
+            <title>TEST LOGIN</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='undefined'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='undefined'/>
+            </parameters>
+            <steps>
+                <step start='1646200022067' status='passed' stop='1646200022068'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646200022072' status='passed' stop='1646200031004'>
+                    <name>Navigate to Log in Page</name>
+                    <title>Navigate to Log in Page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646200031004' status='passed' stop='1646200031004'>
+                            <name>Open Login Page</name>
+                            <title>Open Login Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1646200031004' status='passed' stop='1646200033579'>
+                    <name>Log in</name>
+                    <title>Log in</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646200031221' status='passed' stop='1646200031221'>
+                            <name>Set email to rtester@hotmail.com</name>
+                            <title>Set email to rtester@hotmail.com</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646200031435' status='passed' stop='1646200031435'>
+                            <name>Enter the password</name>
+                            <title>Enter the password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646200033484' status='passed' stop='1646200033484'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646200033537' status='passed' stop='1646200033537'>
+                            <name>Click Login in Button</name>
+                            <title>Click Login in Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646200033537' status='passed' stop='1646200033537'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1646200034518' status='passed' stop='1646200034518'>
+                    <name>Log Out</name>
+                    <title>Log Out</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

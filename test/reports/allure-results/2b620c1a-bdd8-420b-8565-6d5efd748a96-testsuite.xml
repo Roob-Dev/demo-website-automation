@@ -1,0 +1,144 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646454446135' stop='1646454457183'>
+    <name>BILLING ADDRESS</name>
+    <title>BILLING ADDRESS</title>
+    <test-cases>
+        <test-case start='1646454446136' status='broken' stop='1646454457181'>
+            <name>FILL OUT BILLING ADDRESS</name>
+            <title>FILL OUT BILLING ADDRESS</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='98.0.4758.109'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='WINDOWS 10'/>
+            </parameters>
+            <steps>
+                <step start='1646454446138' status='passed' stop='1646454446138'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646454446141' status='broken' stop='1646454457181'>
+                    <name>Login Procedure</name>
+                    <title>Login Procedure</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646454448723' status='passed' stop='1646454448723'>
+                            <name>Open Login Page</name>
+                            <title>Open Login Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646454448805' status='passed' stop='1646454448805'>
+                            <name>Set email to rtester@hotmail.com</name>
+                            <title>Set email to rtester@hotmail.com</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646454448884' status='passed' stop='1646454448884'>
+                            <name>Enter the password</name>
+                            <title>Enter the password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646454450274' status='passed' stop='1646454450274'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646454450303' status='passed' stop='1646454450303'>
+                            <name>Click Login in Button</name>
+                            <title>Click Login in Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646454450303' status='passed' stop='1646454450303'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646454450329' status='passed' stop='1646454457172'>
+                            <name>Fill out Billing form</name>
+                            <title>Fill out Billing form</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1646454450888' status='passed' stop='1646454450888'>
+                                    <name>Open Shopping Cart</name>
+                                    <title>Open Shopping Cart</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646454450934' status='passed' stop='1646454450934'>
+                                    <name>I agree with the terms of service</name>
+                                    <title>I agree with the terms of service</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646454452782' status='passed' stop='1646454452782'>
+                                    <name>Click Checkout</name>
+                                    <title>Click Checkout</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646454456838' status='passed' stop='1646454456838'>
+                                    <name>Set Country name to United States</name>
+                                    <title>Set Country name to United States</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646454456917' status='passed' stop='1646454456917'>
+                                    <name>Set City name to Tokyo</name>
+                                    <title>Set City name to Tokyo</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646454457012' status='passed' stop='1646454457012'>
+                                    <name>Set Address to 2222 Lucky Ln</name>
+                                    <title>Set Address to 2222 Lucky Ln</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646454457097' status='passed' stop='1646454457097'>
+                                    <name>Set Postal Code to 12345</name>
+                                    <title>Set Postal Code to 12345</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646454457172' status='passed' stop='1646454457172'>
+                                    <name>Set Phone Number to 1234567890</name>
+                                    <title>Set Phone Number to 1234567890</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1646454457172' status='broken' stop='1646454457181'>
+                            <name>proceed in shopping address</name>
+                            <title>proceed in shopping address</title>
+                            <attachments>
+                                <attachment title='FILL_OUT_BILLING_ADDRESS_fail.png' source='a6b9ea41-29cc-4cc2-8689-a345d07f750f-attachment.png' type='image/png' size='60885'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.btnContinue.click is not a function</message>
+                <stack-trace>TypeError: this.btnContinue.click is not a function
+                    at ShippingAddress.continue (C:\NATC-Automation\Project\wdio\NATC-Automation\test\pages\shipping-address.js:18:22)
+                    at Context.&lt;anonymous> (C:\NATC-Automation\Project\wdio\NATC-Automation\test\specs\billing-address.spec.js:78:35)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

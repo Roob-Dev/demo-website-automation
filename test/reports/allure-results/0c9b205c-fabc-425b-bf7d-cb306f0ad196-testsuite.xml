@@ -1,0 +1,180 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646412733640' stop='1646412746587'>
+    <name>BILLING ADDRESS</name>
+    <title>BILLING ADDRESS</title>
+    <test-cases>
+        <test-case start='1646412733641' status='broken' stop='1646412746586'>
+            <name>FILL OUT BILLING ADDRESS</name>
+            <title>FILL OUT BILLING ADDRESS</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='98.0.4758.109'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='WINDOWS 10'/>
+            </parameters>
+            <steps>
+                <step start='1646412733644' status='passed' stop='1646412733644'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646412733648' status='broken' stop='1646412746585'>
+                    <name>Login Procedure</name>
+                    <title>Login Procedure</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646412736266' status='passed' stop='1646412736266'>
+                            <name>Open Login Page</name>
+                            <title>Open Login Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646412736356' status='passed' stop='1646412736356'>
+                            <name>Set email to rtester@hotmail.com</name>
+                            <title>Set email to rtester@hotmail.com</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646412736447' status='passed' stop='1646412736447'>
+                            <name>Enter the password</name>
+                            <title>Enter the password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646412737678' status='passed' stop='1646412737678'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646412737721' status='passed' stop='1646412737721'>
+                            <name>Click Login in Button</name>
+                            <title>Click Login in Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646412737721' status='passed' stop='1646412737721'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646412737746' status='passed' stop='1646412745572'>
+                            <name>Add new address in Customer Info</name>
+                            <title>Add new address in Customer Info</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1646412738578' status='passed' stop='1646412738578'>
+                                    <name>Click on Customer Addresses</name>
+                                    <title>Click on Customer Addresses</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646412739284' status='passed' stop='1646412739284'>
+                                    <name>Set First Name to Harry</name>
+                                    <title>Set First Name to Harry</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646412739405' status='passed' stop='1646412739405'>
+                                    <name>Set Last Name to Potter</name>
+                                    <title>Set Last Name to Potter</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646412739544' status='passed' stop='1646412739544'>
+                                    <name>Set Address to harrypotter@hogwarts.com</name>
+                                    <title>Set Address to harrypotter@hogwarts.com</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646412739614' status='passed' stop='1646412739614'>
+                                    <name>Set Country name to United States</name>
+                                    <title>Set Country name to United States</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646412739717' status='passed' stop='1646412739717'>
+                                    <name>Set City name to Austin</name>
+                                    <title>Set City name to Austin</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646412739852' status='passed' stop='1646412739852'>
+                                    <name>Set Address to 1111 Lucky Ln</name>
+                                    <title>Set Address to 1111 Lucky Ln</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646412739976' status='passed' stop='1646412739976'>
+                                    <name>Set Postal Code to 90210</name>
+                                    <title>Set Postal Code to 90210</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646412740119' status='passed' stop='1646412740119'>
+                                    <name>Set Phone Number to 5124592222</name>
+                                    <title>Set Phone Number to 5124592222</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646412743715' status='passed' stop='1646412743715'>
+                                    <name>Open Shopping Cart</name>
+                                    <title>Open Shopping Cart</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646412743761' status='passed' stop='1646412743761'>
+                                    <name>I agree with the terms of service</name>
+                                    <title>I agree with the terms of service</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1646412745572' status='passed' stop='1646412745572'>
+                                    <name>Click Checkout</name>
+                                    <title>Click Checkout</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1646412745572' status='broken' stop='1646412746585'>
+                            <name>Delete address info once</name>
+                            <title>Delete address info once</title>
+                            <attachments>
+                                <attachment title='FILL_OUT_BILLING_ADDRESS_fail.png' source='dd48a878-8ec8-4241-b365-201702a91bf9-attachment.png' type='image/png' size='58614'/>
+                            </attachments>
+                            <steps>
+                                <step start='1646412746480' status='passed' stop='1646412746480'>
+                                    <name>Click on Customer Addresses</name>
+                                    <title>Click on Customer Addresses</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such alert
+                  (Session info: chrome=99.0.4844.51)</message>
+                <stack-trace>no such alert: no such alert
+                  (Session info: chrome=99.0.4844.51)
+                    at getErrorFromResponseBody (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async CustomerInfo.delete (C:\NATC-Automation\Project\wdio\NATC-Automation\test\pages\customer-info.js:100:5)
+                    at async Context.&lt;anonymous> (C:\NATC-Automation\Project\wdio\NATC-Automation\test\specs\billing-address.spec.js:54:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

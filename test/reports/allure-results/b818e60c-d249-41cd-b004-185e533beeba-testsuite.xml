@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646274582192' stop='1646274604400'>
+    <name> ORDER PRODUCT</name>
+    <title> ORDER PRODUCT</title>
+    <test-cases>
+        <test-case start='1646274582193' status='failed' stop='1646274604398'>
+            <name>ORDER BLUE JEANS</name>
+            <title>ORDER BLUE JEANS</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='98.0.4758.109'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='WINDOWS 10'/>
+            </parameters>
+            <steps>
+                <step start='1646274582197' status='passed' stop='1646274582198'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646274582204' status='passed' stop='1646274590350'>
+                    <name>Login Procedure</name>
+                    <title>Login Procedure</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646274585250' status='passed' stop='1646274585250'>
+                            <name>Open Login Page</name>
+                            <title>Open Login Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646274585339' status='passed' stop='1646274585339'>
+                            <name>Set email to rtester@hotmail.com</name>
+                            <title>Set email to rtester@hotmail.com</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646274585428' status='passed' stop='1646274585428'>
+                            <name>Enter the password</name>
+                            <title>Enter the password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646274586808' status='passed' stop='1646274586808'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646274586839' status='passed' stop='1646274586839'>
+                            <name>Click Login in Button</name>
+                            <title>Click Login in Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646274586839' status='passed' stop='1646274586839'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646274587366' status='passed' stop='1646274587366'>
+                            <name>Open Shopping Cart</name>
+                            <title>Open Shopping Cart</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646274587406' status='passed' stop='1646274587406'>
+                            <name>I agree with the terms of service</name>
+                            <title>I agree with the terms of service</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646274590350' status='passed' stop='1646274590350'>
+                            <name>Click Checkout</name>
+                            <title>Click Checkout</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1646274594362' status='failed' stop='1646274604398'>
+                    <name>Add Billing addrees</name>
+                    <title>Add Billing addrees</title>
+                    <attachments>
+                        <attachment title='ORDER_BLUE_JEANS_fail.png' source='c4f949b2-2a3b-421a-af36-f01bf85110fa-attachment.png' type='image/png' size='56044'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect $(`#billing-new-address-form`) to have attribute style
+                
+                Expected: true
+                Received: false</message>
+                <stack-trace>Error: Expect $(`#billing-new-address-form`) to have attribute style
+                
+                Expected: true
+                Received: false
+                    at BillingAddress.checkIfFilled (C:\NATC-Automation\Project\wdio\NATC-Automation\test\pages\billing-address.js:6:28)
+                    at Context.&lt;anonymous> (C:\NATC-Automation\Project\wdio\NATC-Automation\test\specs\billing-address.spec.js:31:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646683906830' stop='1646683913820'>
+    <name>DELETE TESTING ADDRESS</name>
+    <title>DELETE TESTING ADDRESS</title>
+    <test-cases>
+        <test-case start='1646683906830' status='broken' stop='1646683913819'>
+            <name>DELETE ADDRESS</name>
+            <title>DELETE ADDRESS</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='98.0.4758.109'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='WINDOWS 10'/>
+            </parameters>
+            <steps>
+                <step start='1646683906830' status='passed' stop='1646683906830'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646683912834' status='broken' stop='1646683913819'>
+                    <name>Delete address info again</name>
+                    <title>Delete address info again</title>
+                    <attachments>
+                        <attachment title='DELETE_ADDRESS_fail.png' source='4183e6b2-8ee0-42a1-8ae2-11b0f1c0ac4b-attachment.png' type='image/png' size='58614'/>
+                    </attachments>
+                    <steps>
+                        <step start='1646683913771' status='passed' stop='1646683913771'>
+                            <name>Click on Customer Addresses</name>
+                            <title>Click on Customer Addresses</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='46c151f9-d51d-43d2-853e-60cf98c404f4-attachment.png' type='image/png' size='133958'/>
+            </attachments>
+            <failure>
+                <message>no such alert
+                  (Session info: chrome=99.0.4844.51)</message>
+                <stack-trace>no such alert: no such alert
+                  (Session info: chrome=99.0.4844.51)
+                    at getErrorFromResponseBody (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\NATC-Automation\Project\wdio\NATC-Automation\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async CustomerInfo.delete (C:\NATC-Automation\Project\wdio\NATC-Automation\test\pages\customer-info.js:100:5)
+                    at async Context.&lt;anonymous> (C:\NATC-Automation\Project\wdio\NATC-Automation\test\specs\billing-address.spec.js:111:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

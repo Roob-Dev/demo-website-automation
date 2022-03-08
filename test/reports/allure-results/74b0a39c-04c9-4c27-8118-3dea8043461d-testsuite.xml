@@ -1,0 +1,116 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646200023553' stop='1646200054341'>
+    <name> ORDER PRODUCT</name>
+    <title> ORDER PRODUCT</title>
+    <test-cases>
+        <test-case start='1646200023553' status='broken' stop='1646200054340'>
+            <name>ORDER BLUE JEANS</name>
+            <title>ORDER BLUE JEANS</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='undefined'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='undefined'/>
+            </parameters>
+            <steps>
+                <step start='1646200023555' status='passed' stop='1646200023555'>
+                    <name>Open Web Shop</name>
+                    <title>Open Web Shop</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646200023558' status='passed' stop='1646200030889'>
+                    <name>Login Procedure</name>
+                    <title>Login Procedure</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646200027983' status='passed' stop='1646200027983'>
+                            <name>Open Login Page</name>
+                            <title>Open Login Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646200028348' status='passed' stop='1646200028348'>
+                            <name>Set email to rtester@hotmail.com</name>
+                            <title>Set email to rtester@hotmail.com</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646200028551' status='passed' stop='1646200028551'>
+                            <name>Enter the password</name>
+                            <title>Enter the password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646200030700' status='passed' stop='1646200030700'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646200030790' status='passed' stop='1646200030790'>
+                            <name>Click Login in Button</name>
+                            <title>Click Login in Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1646200030790' status='passed' stop='1646200030790'>
+                            <name>Get Customer Info</name>
+                            <title>Get Customer Info</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1646200030889' status='passed' stop='1646200031773'>
+                    <name>Navigate to Apparel and Shoes</name>
+                    <title>Navigate to Apparel and Shoes</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646200031773' status='passed' stop='1646200031773'>
+                            <name>Open Apparel &amp; Shoes Page</name>
+                            <title>Open Apparel &amp; Shoes Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1646200031773' status='passed' stop='1646200054327'>
+                    <name>Navigate to Blue Jeans</name>
+                    <title>Navigate to Blue Jeans</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1646200054327' status='passed' stop='1646200054327'>
+                            <name>Open Blue Jeans Page</name>
+                            <title>Open Blue Jeans Page</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1646200054327' status='broken' stop='1646200054339'>
+                    <name>Order Blue Jeans</name>
+                    <title>Order Blue Jeans</title>
+                    <attachments>
+                        <attachment title='ORDER_BLUE_JEANS_fail.png' source='609352ab-c602-4961-85c4-5f515cf8b98e-attachment.png' type='image/png' size='98454'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>document is not defined</message>
+                <stack-trace>ReferenceError: document is not defined
+                    at AddToCart.addBtn (C:\NATC-Automation\Project\wdio\NATC-Automation\test\pages\/add-To-Cart.js:5:22)
+                    at AddToCart.AddToShoppingCart (C:\NATC-Automation\Project\wdio\NATC-Automation\test\pages\/add-To-Cart.js:12:16)
+                    at Context.&lt;anonymous> (C:\NATC-Automation\Project\wdio\NATC-Automation\test\specs\/order-product.spec.js:35:21)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

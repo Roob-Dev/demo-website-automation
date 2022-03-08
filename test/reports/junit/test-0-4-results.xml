@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Checkout Process" timestamp="2022-03-04T10:10:04" time="0.095" tests="5" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Checkout Process"/>
+      <property name="capabilities" value="chrome.99_0_4844_51.windows"/>
+      <property name="file" value=".\test\specs\unit.test.spec.js"/>
+    </properties>
+    <testcase classname="chrome.99_0_4844_51.windows.Checkout_Process" name="Billing Address Continue" time="0.011">
+      <system-out><![CDATA[
+COMMAND: POST /session/999091680311777d16722c74f2f914e1/url - {"url":"http://demowebshop.tricentis.com/"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.99_0_4844_51.windows.Checkout_Process" name="Shipping Address Continue" time="0.004">
+      <system-out><![CDATA[
+COMMAND: POST /session/999091680311777d16722c74f2f914e1/url - {"url":"http://demowebshop.tricentis.com/"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.99_0_4844_51.windows.Checkout_Process" name="Shipping Method Ground" time="0.009">
+      <system-out><![CDATA[
+COMMAND: POST /session/999091680311777d16722c74f2f914e1/url - {"url":"http://demowebshop.tricentis.com/"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.99_0_4844_51.windows.Checkout_Process" name="Payment Method Credit Card" time="0.01">
+      <system-out><![CDATA[
+COMMAND: POST /session/999091680311777d16722c74f2f914e1/url - {"url":"http://demowebshop.tricentis.com/"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.99_0_4844_51.windows.Checkout_Process" name="Payment Information Credit Card" time="0.005">
+      <system-out><![CDATA[
+COMMAND: POST /session/999091680311777d16722c74f2f914e1/url - {"url":"http://demowebshop.tricentis.com/"}
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="Verification of Prices" timestamp="2022-03-04T10:10:04" time="0.019" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Verification of Prices"/>
+      <property name="capabilities" value="chrome.99_0_4844_51.windows"/>
+      <property name="file" value=".\test\specs\unit.test.spec.js"/>
+    </properties>
+    <testcase classname="chrome.99_0_4844_51.windows.Verification_of_Prices" name="Verification of Prices" time="0.005">
+      <system-out><![CDATA[
+COMMAND: POST /session/999091680311777d16722c74f2f914e1/url - {"url":"http://demowebshop.tricentis.com/"}
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="Confirmation" timestamp="2022-03-04T10:10:04" time="0.027" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Confirmation"/>
+      <property name="capabilities" value="chrome.99_0_4844_51.windows"/>
+      <property name="file" value=".\test\specs\unit.test.spec.js"/>
+    </properties>
+    <testcase classname="chrome.99_0_4844_51.windows.Confirmation" name="Confirm the Order" time="0.006">
+      <system-out><![CDATA[
+COMMAND: POST /session/999091680311777d16722c74f2f914e1/url - {"url":"http://demowebshop.tricentis.com/"}
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="Verification of Success" timestamp="2022-03-04T10:10:04" time="0.024" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Verification of Success"/>
+      <property name="capabilities" value="chrome.99_0_4844_51.windows"/>
+      <property name="file" value=".\test\specs\unit.test.spec.js"/>
+    </properties>
+    <testcase classname="chrome.99_0_4844_51.windows.Verification_of_Success" name="Confirm the Order" time="0.004">
+      <system-out><![CDATA[
+COMMAND: POST /session/999091680311777d16722c74f2f914e1/url - {"url":"http://demowebshop.tricentis.com/"}
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="Postcondition" timestamp="2022-03-04T10:10:04" time="0.049" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Postcondition"/>
+      <property name="capabilities" value="chrome.99_0_4844_51.windows"/>
+      <property name="file" value=".\test\specs\unit.test.spec.js"/>
+    </properties>
+    <testcase classname="chrome.99_0_4844_51.windows.Postcondition" name="Continue" time="0.015">
+      <system-out><![CDATA[
+COMMAND: POST /session/999091680311777d16722c74f2f914e1/url - {"url":"http://demowebshop.tricentis.com/"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.99_0_4844_51.windows.Postcondition" name="Log Out" time="0.01">
+      <system-out><![CDATA[
+COMMAND: POST /session/999091680311777d16722c74f2f914e1/url - {"url":"http://demowebshop.tricentis.com/"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.99_0_4844_51.windows.Postcondition" name="Close Web Shop" time="0.005">
+      <system-out><![CDATA[
+COMMAND: POST /session/999091680311777d16722c74f2f914e1/url - {"url":"http://demowebshop.tricentis.com/"}
+COMMAND: GET /session/999091680311777d16722c74f2f914e1/se/log/types - {}
+RESULT: {"url":"http://demowebshop.tricentis.com/"}
+RESULT: {"url":"http://demowebshop.tricentis.com/"}
+RESULT: {"url":"http://demowebshop.tricentis.com/"}
+RESULT: {"url":"http://demowebshop.tricentis.com/"}
+RESULT: {"url":"http://demowebshop.tricentis.com/"}
+RESULT: {"url":"http://demowebshop.tricentis.com/"}
+RESULT: {"url":"http://demowebshop.tricentis.com/"}
+RESULT: {"url":"http://demowebshop.tricentis.com/"}
+RESULT: {"url":"http://demowebshop.tricentis.com/"}
+RESULT: {"url":"http://demowebshop.tricentis.com/"}
+RESULT: {"url":"http://demowebshop.tricentis.com/"}
+RESULT: {}
+COMMAND: POST /session/999091680311777d16722c74f2f914e1/se/log - {"type":"driver"}
+COMMAND: POST /session/999091680311777d16722c74f2f914e1/se/log - {"type":"browser"}
+RESULT: {"type":"browser"}
+RESULT: {"type":"driver"}
+COMMAND: DELETE /session/999091680311777d16722c74f2f914e1 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

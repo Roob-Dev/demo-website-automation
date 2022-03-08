@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BILLING ADDRESS" timestamp="2022-03-07T17:04:06" time="37.301" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="BILLING ADDRESS"/>
+      <property name="capabilities" value="chrome.99_0_4844_51.windows"/>
+      <property name="file" value=".\test\specs\billing-address.spec.js"/>
+    </properties>
+    <testcase classname="chrome.99_0_4844_51.windows.BILLING_ADDRESS" name="FILL OUT BILLING ADDRESS" time="37.286">
+      <system-out><![CDATA[
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/url - {"url":"http://demowebshop.tricentis.com/"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//a[contains(@href, \"login\")]"}
+RESULT: {"url":"http://demowebshop.tricentis.com/"}
+RESULT: {"using":"xpath","value":"//a[contains(@href, \"login\")]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/4f100a98-8bc6-4627-b167-c21fdca1b603/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#Email"}
+RESULT: {"using":"css selector","value":"#Email"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/25bf5c82-77a6-4ead-8794-d87ad2c491ac/clear - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/25bf5c82-77a6-4ead-8794-d87ad2c491ac/value - {"text":"rtester@hotmail.com"}
+RESULT: {"text":"rtester@hotmail.com"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#Password"}
+RESULT: {"using":"css selector","value":"#Password"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/9d8c7cd4-93e5-4cab-9ecf-7df991e6ce2d/clear - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/9d8c7cd4-93e5-4cab-9ecf-7df991e6ce2d/value - {"text":"123456"}
+RESULT: {"text":"123456"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":".login-button"}
+RESULT: {"using":"css selector","value":".login-button"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/b49a6429-a220-43c6-92f0-0aa0ce0cf6fb/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+RESULT: {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/elements - {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+RESULT: {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+RESULT: {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+COMMAND: GET /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/df6642fd-201f-4bbd-adb5-f34f9af17ca4/text - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+RESULT: {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/df6642fd-201f-4bbd-adb5-f34f9af17ca4/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//ul[@class=\"list\"]//a[contains(@href, \"/customer/addresses\")]"}
+RESULT: {"using":"xpath","value":"//ul[@class=\"list\"]//a[contains(@href, \"/customer/addresses\")]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/49d72e12-54ad-48e1-aa4a-0a2816680a4b/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#Address_FirstName"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//input[contains(@class,\"button-1 add-address-button\")]"}
+RESULT: {"using":"css selector","value":"#Address_FirstName"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/elements - {"using":"css selector","value":"#Address_FirstName"}
+RESULT: {"using":"xpath","value":"//input[contains(@class,\"button-1 add-address-button\")]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/f705f888-e76d-4b66-be0c-884bbd29297f/click - {}
+RESULT: {"using":"css selector","value":"#Address_FirstName"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/elements - {"using":"css selector","value":"#Address_FirstName"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#Address_FirstName"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#Address_FirstName"}
+RESULT: {"using":"css selector","value":"#Address_FirstName"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/f7c6d17a-41fb-44e0-8402-44462dcbabf1/clear - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/f7c6d17a-41fb-44e0-8402-44462dcbabf1/value - {"text":"Harry"}
+RESULT: {"text":"Harry"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#Address_LastName"}
+RESULT: {"using":"css selector","value":"#Address_LastName"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/ab338963-b136-4215-b624-b8a0131d4e4b/clear - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/ab338963-b136-4215-b624-b8a0131d4e4b/value - {"text":"Potter"}
+RESULT: {"text":"Potter"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#Address_Email"}
+RESULT: {"using":"css selector","value":"#Address_Email"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/050653fe-501e-4c2c-82ea-88caaebca1af/clear - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/050653fe-501e-4c2c-82ea-88caaebca1af/value - {"text":"harrypotter@hogwarts.com"}
+RESULT: {"text":"harrypotter@hogwarts.com"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#Address_CountryId"}
+RESULT: {"using":"css selector","value":"#Address_CountryId"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/6d755994-f7d2-4e95-b776-20cd61a43ef7/element - {"using":"xpath","value":"./option[. = \"United States\"]|./option[normalize-space(text()) = \"United States\"]|./optgroup/option[. = \"United States\"]|./optgroup/option[normalize-space(text()) = \"United States\"]"}
+RESULT: {"using":"xpath","value":"./option[. = \"United States\"]|./option[normalize-space(text()) = \"United States\"]|./optgroup/option[. = \"United States\"]|./optgroup/option[normalize-space(text()) = \"United States\"]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/41838988-2d56-48c5-b213-c6b96f0875db/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#Address_City"}
+RESULT: {"using":"css selector","value":"#Address_City"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/c0237e1f-1cee-4895-85b4-1071a80340f8/clear - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/c0237e1f-1cee-4895-85b4-1071a80340f8/value - {"text":"Austin"}
+RESULT: {"text":"Austin"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#Address_Address1"}
+RESULT: {"using":"css selector","value":"#Address_Address1"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/ad336ed3-641e-466b-9981-d3be63db5e74/clear - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/ad336ed3-641e-466b-9981-d3be63db5e74/value - {"text":"1111 Lucky Ln"}
+RESULT: {"text":"1111 Lucky Ln"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#Address_ZipPostalCode"}
+RESULT: {"using":"css selector","value":"#Address_ZipPostalCode"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/60f8399c-b850-4dd8-a993-f84468950fda/clear - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/60f8399c-b850-4dd8-a993-f84468950fda/value - {"text":"90210"}
+RESULT: {"text":"90210"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#Address_PhoneNumber"}
+RESULT: {"using":"css selector","value":"#Address_PhoneNumber"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/064f8419-3e02-4e4e-836f-c8df140cab30/clear - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/064f8419-3e02-4e4e-836f-c8df140cab30/value - {"text":"5124592222"}
+RESULT: {"text":"5124592222"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//input[contains(@class,\"button-1 save-address-button\")]"}
+RESULT: {"using":"xpath","value":"//input[contains(@class,\"button-1 save-address-button\")]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/16d925ad-9b8c-4e11-bb51-cd131196add5/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//*[@id=\"topcartlink\"]/a"}
+RESULT: {"using":"xpath","value":"//*[@id=\"topcartlink\"]/a"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/780a0511-4264-4fd6-8785-9289fe044797/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//input[@id=\"termsofservice\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"termsofservice\"]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/f09823bc-86f9-48c9-ac5d-5de6de631a55/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//*[@id=\"checkout\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"checkout\"]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/0a020d9c-7fe1-4743-99ed-49e934fdfd49/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#billing-buttons-container > input"}
+RESULT: {"using":"css selector","value":"#billing-buttons-container > input"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/ed6905a0-d900-4831-a518-c2025b89a63a/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+RESULT: {"using":"css selector","value":" div.header-links ul li:nth-child(1) a"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/5909727e-2b69-4c2b-ab6c-20e6a9fb141a/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//ul[@class=\"list\"]//a[contains(@href, \"/customer/addresses\")]"}
+RESULT: {"using":"xpath","value":"//ul[@class=\"list\"]//a[contains(@href, \"/customer/addresses\")]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/968a552e-cdae-4638-a9dc-48635ed990a9/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//input[contains(@class,\"button-2 delete-address-button\")]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/alert/accept - {}
+RESULT: {"using":"xpath","value":"//input[contains(@class,\"button-2 delete-address-button\")]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/67c9ce38-d366-4c08-8d33-eb98cfc9a614/click - {}
+RESULT: {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//*[@id=\"topcartlink\"]/a"}
+RESULT: {"using":"xpath","value":"//*[@id=\"topcartlink\"]/a"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/5628b988-1d70-4aea-9ec8-6ba5d594cee6/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//input[@id=\"termsofservice\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"termsofservice\"]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/180ae099-2d13-4df3-8ae1-2dc22809d164/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//*[@id=\"checkout\"]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"checkout\"]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/df1a4035-176b-49d1-9bcf-8e34e642b61c/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#BillingNewAddress_CountryId"}
+RESULT: {"using":"css selector","value":"#BillingNewAddress_CountryId"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/88cf983c-7bb9-468f-9e57-9880db8976f9/element - {"using":"xpath","value":"./option[. = \"United States\"]|./option[normalize-space(text()) = \"United States\"]|./optgroup/option[. = \"United States\"]|./optgroup/option[normalize-space(text()) = \"United States\"]"}
+RESULT: {"using":"xpath","value":"./option[. = \"United States\"]|./option[normalize-space(text()) = \"United States\"]|./optgroup/option[. = \"United States\"]|./optgroup/option[normalize-space(text()) = \"United States\"]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/04378f1e-adca-4a4b-a4ff-cd8a930eedd5/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#BillingNewAddress_City"}
+RESULT: {"using":"css selector","value":"#BillingNewAddress_City"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/1e23fa4b-b6e6-4160-ab8e-2492ca0a4461/clear - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/1e23fa4b-b6e6-4160-ab8e-2492ca0a4461/value - {"text":"Tokyo"}
+RESULT: {"text":"Tokyo"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#BillingNewAddress_Address1"}
+RESULT: {"using":"css selector","value":"#BillingNewAddress_Address1"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/a9d5c230-cead-4dc6-a931-c587de596780/clear - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/a9d5c230-cead-4dc6-a931-c587de596780/value - {"text":"2222 Lucky Ln"}
+RESULT: {"text":"2222 Lucky Ln"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#BillingNewAddress_ZipPostalCode"}
+RESULT: {"using":"css selector","value":"#BillingNewAddress_ZipPostalCode"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/4e71804a-d954-4d68-b4fa-1e79c18566d0/clear - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/4e71804a-d954-4d68-b4fa-1e79c18566d0/value - {"text":"12345"}
+RESULT: {"text":"12345"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#BillingNewAddress_PhoneNumber"}
+RESULT: {"using":"css selector","value":"#BillingNewAddress_PhoneNumber"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/58e9a2e8-24e9-431b-b37a-df17de163a7d/clear - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/58e9a2e8-24e9-431b-b37a-df17de163a7d/value - {"text":"1234567890"}
+RESULT: {"text":"1234567890"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#billing-buttons-container > input"}
+RESULT: {"using":"css selector","value":"#billing-buttons-container > input"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/19a743b8-284c-4659-98a3-48c51e9a8029/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//*[@id=\"shipping-buttons-container\"]/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"shipping-buttons-container\"]/input"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/28ba7fb3-b7c4-4331-9c19-d191c6e230de/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#shippingoption_2"}
+RESULT: {"using":"css selector","value":"#shippingoption_2"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/dd0ced6a-aa4f-4776-aaa7-c828d6f2addc/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#shippingoption_1"}
+RESULT: {"using":"css selector","value":"#shippingoption_1"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/17b9308c-380f-4a3b-9daa-9851ca86c47b/click - {}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":"#shippingoption_0"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"css selector","value":".button-1 shipping-method-next-step-button"}
+RESULT: {"using":"css selector","value":"#shippingoption_0"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/ffe78c05-0afe-4825-8b3e-2c8a2195c8fc/click - {}
+RESULT: {"using":"css selector","value":".button-1 shipping-method-next-step-button"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/elements - {"using":"css selector","value":".button-1 shipping-method-next-step-button"}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element - {"using":"xpath","value":"//a[contains(@href, \"logout\")]"}
+RESULT: {"using":"css selector","value":".button-1 shipping-method-next-step-button"}
+RESULT: {"using":"xpath","value":"//a[contains(@href, \"logout\")]"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/element/37b32720-7cd6-4c71-9e9c-a81a7e4a8eb2/click - {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/elements - {"using":"css selector","value":".button-1 shipping-method-next-step-button"}
+RESULT: {}
+COMMAND: GET /session/607c81bbdcbf128d8f1f7a23f3fa06f8/se/log/types - {}
+RESULT: {"using":"css selector","value":".button-1 shipping-method-next-step-button"}
+RESULT: {}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/se/log - {"type":"driver"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/se/log - {"type":"browser"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/elements - {"using":"css selector","value":".button-1 shipping-method-next-step-button"}
+RESULT: {"type":"driver"}
+RESULT: {"type":"browser"}
+COMMAND: DELETE /session/607c81bbdcbf128d8f1f7a23f3fa06f8 - {}
+RESULT: {"using":"css selector","value":".button-1 shipping-method-next-step-button"}
+COMMAND: POST /session/607c81bbdcbf128d8f1f7a23f3fa06f8/elements - {"using":"css selector","value":".button-1 shipping-method-next-step-button"}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
